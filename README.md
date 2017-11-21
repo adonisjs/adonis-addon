@@ -1,5 +1,7 @@
 # Adonis Addon
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adonisjs/adonis-addon.svg)](https://greenkeeper.io/)
+
 This is a boilerplate for creating AdonisJs Addons. It is suggested to read [addons guide](http://adonisjs.com/recipes/making-adonis-addons) to learn more about the development process.
 
 ## Dependencies
