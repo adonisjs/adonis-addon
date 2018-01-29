@@ -10,18 +10,5 @@ This project includes following dependencies, you are free to remove them.
 
 ## Things to note
 
-1. Always include `@adonisjs/fold` as a dev dependency to your addon
-2. Use `require.main.require('@adonisjs/fold')` vs `require('@adonisjs/fold')` for this dependency only.
-
-## Sample provider
-Also this project comes with a sample provider to get your started quickly. Feel free to start from scratch by removing following files.
-
-- src/Greeting.js
-- src/GreetingProvider.js
-- test/greeting.spec.js
-
-```js
-rm src/Greeting.js
-rm src/GreetingProvider.js
-rm test/greeting.spec.js
-```
+1. Always include `@adonisjs/fold` as a dev dependency to your addon.
+2. Use `require.main.require('@adonisjs/fold')` vs `require('@adonisjs/fold')` when importing the IoC container dependency.
